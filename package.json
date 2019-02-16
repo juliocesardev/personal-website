@@ -1,0 +1,16 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://juliocesardev.github.io/personal-website/",
+  "description": "",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
