@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+* { margin: 0px; padding: 0px; font-family: 'PT Sans', sans-serif; }
+
+:root {
+    --main-wrapperWidth: 580;
+    --main-wrapperMargin: 40px auto;
+    --main-borderRadius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    :root {
+        
+        --main-wrapperWidth: 100%;
+        --main-wrapperMargin: 20px auto;
+    }
+}
+
+.icon {
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: 70px 70px;
+    background-position: center;
+}
+
+.icon.iconInstagram {
+    background-image: url('../images/icons/icon-instagram.svg');
+}
+
+.icon.iconGithub {
+    background-image: url('../images/icons/icon-github.svg');
+}
