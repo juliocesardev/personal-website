@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>@JULIODEV</title>
+        <title>@juliocesardev</title>
         <!-- STYLE -->
         <link rel="stylesheet" href="css/root.css">
         <link rel="stylesheet" href="css/style.css">
@@ -16,21 +16,32 @@
         <div class="wrapper">
             <header class="header">
                 <p class="titleIntro">Olá Mundo!</p>
-                <p class="titleHeader">Sou um Web Developer e adore o que faço.</p>
+                <p class="titleHeader">Sou um Developer e adore o que faço.</p>
             </header>
             <main class="main">
                 <ul class="listContent">
                     <li class="itemContent">
-                        <a href="https://www.instagram.com/juliocesar.dev/" target="_blank" class="contentLink">
+                        <a href="https://www.instagram.com/juliocesardev/" target="_blank" class="contentLink">
                             <icon class="icon iconInstagram"></icon>
-                            <p class="contentTitle">Instagram Blog</p>
+                            <p class="contentTitle">Instagram</p>
                         </a>
                     </li>
-
                     <li class="itemContent">
                         <a href="https://github.com/juliocesardev" target="_blank" class="contentLink">
                             <icon class="icon iconGithub"></icon>
                             <p class="contentTitle">GitHub</p>
+                        </a>
+                    </li>
+                    <li class="itemContent">
+                        <a href="https://www.youtube.com/channel/UCIMuP7Sx6qb1b9ntaiO_wfg?view_as=subscriber" target="_blank" class="contentLink">
+                            <icon class="icon iconYoutube"></icon>
+                            <p class="contentTitle">Youtube</p>
+                        </a>
+                    </li>
+                    <li class="itemContent">
+                        <a href="https://www.paypal.me/juliogomes26297" target="_blank" class="contentLink">
+                            <icon class="icon iconPaypal"></icon>
+                            <p class="contentTitle">Doar</p>
                         </a>
                     </li>
                     <li class="itemContent">
@@ -44,7 +55,15 @@
                 <p>Source Code no <b>Github</b></p>
             </footer>
         </div>
+        <p id="demo"></p>
 
+        <script>
+       if (navigator.geolocation) { //check if geolocation is available
+                navigator.geolocation.getCurrentPosition(function(position){
+                  console.log(position);
+                });   
+            }
+        </script>
     </body>
 
 </html>
