@@ -12,7 +12,9 @@
   "dependencies": {
     "gh-pages": "^2.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "lodash": ">=4.17.12"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/juliocesardev/personal-website.git"
