@@ -13,7 +13,7 @@
     "gh-pages": "^2.0.1"
   },
   "devDependencies": {
-    "lodash": ">=4.17.12"
+    "lodash": ">=4.17.13"
   },
   "repository": {
     "type": "git",
